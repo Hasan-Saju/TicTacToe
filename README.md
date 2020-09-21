@@ -49,7 +49,7 @@ AI Defensive:
 As a player, I want to play with a defensive AI opponent. The AI should work as follows
 
 1 Case: The human player is occupying two cells in a line and the third cell is empty:
-		i.Occupy the third cell
+	# 	i.Occupy the third cell
 2 Case: Otherwise
 		ii.Occupy a random cell
 		

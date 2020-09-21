@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5836120401337793" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Line fx:id="horizontal1" endX="-153.0" endY="9.000007629394531" layoutX="155.0" layoutY="119.0" startX="188.0" startY="9.000015258789062" strokeWidth="10.0" />
+            <Line fx:id="horizontal2" endX="-153.0" endY="9.000007629394531" layoutX="155.0" layoutY="257.0" startX="188.0" startY="9.000015258789062" strokeWidth="10.0" />
+            <Line fx:id="vertical1" endX="-113.0" endY="-174.0" layoutX="223.0" layoutY="177.0" startX="-113.0" startY="221.0" strokeWidth="10.0" />
+            <Line fx:id="vertical2" endX="-115.33334350585938" endY="-174.0" layoutX="352.0" layoutY="176.0" startX="-115.33334350585938" startY="221.0" strokeWidth="10.0" />
+            <Button fx:id="btn1" mnemonicParsing="false" onMouseClicked="#click_1" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="117.0" mnemonicParsing="false" onMouseClicked="#click_2" prefHeight="122.0" prefWidth="111.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="244.0" mnemonicParsing="false" onMouseClicked="#click_3" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#click_4" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" layoutX="117.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#click_5" prefHeight="122.0" prefWidth="111.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" layoutX="245.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#click_6" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#click_7" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" layoutX="116.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#click_8" prefHeight="122.0" prefWidth="111.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn9" layoutX="244.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#click_9" prefHeight="122.0" prefWidth="102.0">
+               <font>
+                  <Font name="SansSerif Bold" size="40.0" />
+               </font>
+            </Button>
+            <Line fx:id="winVertical1" endX="-115.33334350585938" endY="-174.0" layoutX="168.0" layoutY="176.0" startX="-115.33334350585938" startY="221.0" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winVertical2" endX="-115.33334350585938" endY="-174.0" layoutX="287.0" layoutY="179.0" startX="-115.33334350585938" startY="221.0" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winVertical3" endX="-115.33334350585938" endY="-174.0" layoutX="411.0" layoutY="177.0" startX="-115.33334350585938" startY="221.0" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winHorizontal1" endX="-153.0" endY="9.000007629394531" layoutX="158.0" layoutY="52.0" startX="188.0" startY="9.000015258789062" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winHorizontal2" endX="-153.0" endY="9.000007629394531" layoutX="158.0" layoutY="189.0" startX="188.0" startY="9.000015258789062" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winHorizontal3" endX="-153.0" endY="9.000007629394531" layoutX="160.0" layoutY="326.0" startX="188.0" startY="9.000015258789062" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winDiagonal1" endX="-268.0" endY="-182.0" layoutX="268.0" layoutY="182.0" startX="78.0" startY="216.0" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+            <Line fx:id="winDiagonal2" endX="-70.0" endY="-199.0" layoutX="416.0" layoutY="199.0" startX="-416.0" startY="199.0" strokeWidth="5.0" style="-fx-stroke: SANDYBROWN;" visible="false" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Label layoutX="14.0" layoutY="41.0" prefHeight="33.0" prefWidth="171.0" text="Theme">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="14.0" layoutY="90.0" mnemonicParsing="false" onMouseClicked="#click_classic" prefHeight="22.0" prefWidth="111.0" text="Classic">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="themeToggleGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#click_forrest" prefHeight="22.0" prefWidth="82.0" text="Forrest" toggleGroup="$themeToggleGroup">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </RadioButton>
+            <RadioButton layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onMouseClicked="#click_highContrast" prefHeight="14.0" prefWidth="139.0" text="High Contrast" toggleGroup="$themeToggleGroup">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="randomAIbtn" layoutX="10.0" layoutY="262.0" mnemonicParsing="false" onMouseClicked="#click_randomAI" prefHeight="39.0" prefWidth="225.0" style="-fx-background-color: BLACK;" text="Start With Random AI" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="defensiveAIbtn" layoutX="10.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#click_defensiveAI" prefHeight="39.0" prefWidth="225.0" style="-fx-background-color: BLACK;" text="Start With Defensive AI" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Regular" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

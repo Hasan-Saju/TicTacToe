@@ -2,16 +2,16 @@
 
 **The basic game UI:**
 There are two horizontal and two black vertical lines
-In the right part there are three radio button containing 
-three theme options.
+**In the right part there are three radio button containing 
+three theme options.**
 
-**1.Classic Theme
-  2.Forrest Theme 
-  3.High Contrast Theme**
+1.Classic Theme
+2.Forrest Theme
+3.High Contrast Theme
 
-There are two oppponent to play agains.
-**1. RandomAI
-  2. DefensiveAI**
+**There are two oppponent to play agains.**
+1. RandomAI
+2. DefensiveAI
 
 As a Player, Human will make the first move always. 
 Human should not be able to make a move when waiting for AI move.
